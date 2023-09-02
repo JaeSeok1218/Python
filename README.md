@@ -1,4 +1,4 @@
-# Python
+# Jupyter Notebook(Anaconda)
 From starting point
 
 ## Network Science
