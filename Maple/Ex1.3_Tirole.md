@@ -66,4 +66,4 @@ ans[k]:=diff(pm[k],c);
 end do
 
 ------
-[Result File]([Maple/Ex1.3_Tirole.pdf](https://github.com/JaeSeok1218/Jupyter-Notebook/blob/8d050e607288f39966ba4f8c5015e5267210bd73/Maple/Ex1.3_Tirole.pdf)https://github.com/JaeSeok1218/Jupyter-Notebook/blob/8d050e607288f39966ba4f8c5015e5267210bd73/Maple/Ex1.3_Tirole.pdf)
+[Result File](Maple/Results/Ex1.3_Tirole.pdf)
