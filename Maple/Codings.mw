@@ -1,0 +1,13 @@
+p1dq/q ;
+p2 d q/ a K b$qd; p3dq/aKb$ln q ;
+p1dp1 q1 ; p2dp2 q2 ; p3dp3 q3 ;
+for i from 1 to 3 do
+pi i d p i Kc q i ;
+end do;
+for j from 1 to 3 do
+foc j ddiff pi j,qj ;
+qm j dsolve foc j,qj ; qqmjdsimplifyqmj ;
+end do;
+pm1dp1 qqm1 ; pm2dp2 qqm2 ; pm3dp3 qqm3 ;
+for k from 1 to 3 do
+ans k d diff pm k , c ; end do
