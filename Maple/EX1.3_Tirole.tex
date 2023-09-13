@@ -1,0 +1,141 @@
+%% Created by Maple 12.01, Windows Vista
+%% Source Worksheet: EX1.3_Tirole.mw
+%% Generated: Tue Sep 12 21:17:31 CDT 2023
+\documentclass{article}
+\usepackage{maplestd2e}
+\def\emptyline{\vspace{12pt}}
+\begin{document}
+\pagestyle{empty}
+\DefineParaStyle{Maple Heading 1}
+\DefineParaStyle{Maple Text Output}
+\DefineParaStyle{Maple Dash Item}
+\DefineParaStyle{Maple Bullet Item}
+\DefineParaStyle{Maple Normal}
+\DefineParaStyle{Maple Heading 4}
+\DefineParaStyle{Maple Heading 3}
+\DefineParaStyle{Maple Heading 2}
+\DefineParaStyle{Maple Warning}
+\DefineParaStyle{Maple Title}
+\DefineParaStyle{Maple Error}
+\DefineCharStyle{Maple Hyperlink}
+\DefineCharStyle{Maple 2D Math}
+\DefineCharStyle{Maple Maple Input}
+\DefineCharStyle{Maple 2D Output}
+\DefineCharStyle{Maple 2D Input}
+\begin{Maple Normal}{
+\begin{Maple Normal}{
+\mapleinline{inert}{2d}{}{\[\displaystyle \]}
+}\end{Maple Normal}
+}\end{Maple Normal}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{p1 := proc (q) options operator, arrow; q^(-1/epsilon) end proc; 1; p2 := proc (q) options operator, arrow; alpha-beta*q^delta end proc; 1; p3 := proc (q) options operator, arrow; alpha-beta*ln(q) end proc; 1; p[1] := p1(q[1]); 1; p[2] := p2(q[2]); 1; p[3] := p3(q[3]); 1; for i to 3 do Pi[i] := (p[i]-c)*q[i] end do; 1; for j to 3 do foc[j] := diff(Pi[j], q[j]); qm[j] := solve(foc[j], q[j]); qqm[j] := simplify(qm[j]) end do; 1; pm[1] := p1(qqm[1]); 1; pm[2] := p2(qqm[2]); 1; pm[3] := p3(qqm[3]); 1; for k to 3 do ans[k] := diff(pm[k], c) end do}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p1 := proc (q) options operator, arrow; q^(-1/epsilon) end proc}{\[\displaystyle {\it p1}\, := \,q\mapsto {q}^{-{\epsilon}^{-1}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p2 := proc (q) options operator, arrow; alpha-beta*q^delta end proc}{\[\displaystyle {\it p2}\, := \,q\mapsto \alpha-\beta\,{q}^{\delta}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p3 := proc (q) options operator, arrow; alpha-beta*ln(q) end proc}{\[\displaystyle {\it p3}\, := \,q\mapsto \alpha-\beta\,\ln  \left( q \right) \]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p[1] := q[1]^(-1/epsilon)}{\[\displaystyle p_{{1}}\, := \,{q_{{1}}}^{-{\epsilon}^{-1}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p[2] := alpha-beta*q[2]^delta}{\[\displaystyle p_{{2}}\, := \,\alpha-\beta\,{q_{{2}}}^{\delta}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{p[3] := alpha-beta*ln(q[3])}{\[\displaystyle p_{{3}}\, := \,\alpha-\beta\,\ln  \left( q_{{3}} \right) \]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{Pi[1] := (q[1]^(-1/epsilon)-c)*q[1]}{\[\displaystyle \pi _{{1}}\, := \, \left( {q_{{1}}}^{-{\epsilon}^{-1}}-c \right) q_{{1}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{Pi[2] := (alpha-beta*q[2]^delta-c)*q[2]}{\[\displaystyle \pi _{{2}}\, := \, \left( \alpha-\beta\,{q_{{2}}}^{\delta}-c \right) q_{{2}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{Pi[3] := (alpha-beta*ln(q[3])-c)*q[3]}{\[\displaystyle \pi _{{3}}\, := \, \left( \alpha-\beta\,\ln  \left( q_{{3}} \right) -c \right) q_{{3}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{foc[1] := -q[1]^(-1/epsilon)/epsilon+q[1]^(-1/epsilon)-c}{\[\displaystyle {\it foc}_{{1}}\, := \,-{q_{{1}}}^{-{\epsilon}^{-1}}{\epsilon}^{-1}+{q_{{1}}}^{-{\epsilon}^{-1}}-c\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qm[1] := exp(-ln(c*epsilon/(-1+epsilon))*epsilon)}{\[\displaystyle {\it qm}_{{1}}\, := \,{{\rm e}^{-\ln  \left( {\frac {c\epsilon}{-1+\epsilon}} \right) \epsilon}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qqm[1] := (c*epsilon/(-1+epsilon))^(-epsilon)}{\[\displaystyle {\it qqm}_{{1}}\, := \, \left( {\frac {c\epsilon}{-1+\epsilon}} \right) ^{-\epsilon}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{foc[2] := -beta*q[2]^delta*delta+alpha-beta*q[2]^delta-c}{\[\displaystyle {\it foc}_{{2}}\, := \,-\beta\,{q_{{2}}}^{\delta}\delta+\alpha-\beta\,{q_{{2}}}^{\delta}-c\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qm[2] := exp(ln((alpha-c)/(beta*(delta+1)))/delta)}{\[\displaystyle {\it qm}_{{2}}\, := \,{{\rm e}^{\ln  \left( {\frac {\alpha-c}{\beta\, \left( \delta+1 \right) }} \right) {\delta}^{-1}}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qqm[2] := ((alpha-c)/(beta*(delta+1)))^(1/delta)}{\[\displaystyle {\it qqm}_{{2}}\, := \, \left( {\frac {\alpha-c}{\beta\, \left( \delta+1 \right) }} \right) ^{{\delta}^{-1}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{foc[3] := -beta+alpha-beta*ln(q[3])-c}{\[\displaystyle {\it foc}_{{3}}\, := \,-\beta+\alpha-\beta\,\ln  \left( q_{{3}} \right) -c\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qm[3] := exp((-beta+alpha-c)/beta)}{\[\displaystyle {\it qm}_{{3}}\, := \,{{\rm e}^{{\frac {-\beta+\alpha-c}{\beta}}}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{qqm[3] := exp((-beta+alpha-c)/beta)}{\[\displaystyle {\it qqm}_{{3}}\, := \,{{\rm e}^{{\frac {-\beta+\alpha-c}{\beta}}}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{pm[1] := ((c*epsilon/(-1+epsilon))^(-epsilon))^(-1/epsilon)}{\[\displaystyle {\it pm}_{{1}}\, := \, \left(  \left( {\frac {c\epsilon}{-1+\epsilon}} \right) ^{-\epsilon} \right) ^{-{\epsilon}^{-1}}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{pm[2] := alpha-beta*(((alpha-c)/(beta*(delta+1)))^(1/delta))^delta}{\[\displaystyle {\it pm}_{{2}}\, := \,\alpha-\beta\, \left(  \left( {\frac {\alpha-c}{\beta\, \left( \delta+1 \right) }} \right) ^{{\delta}^{-1}} \right) ^{\delta}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{pm[3] := alpha-beta*ln(exp((-beta+alpha-c)/beta))}{\[\displaystyle {\it pm}_{{3}}\, := \,\alpha-\beta\,\ln  \left( {{\rm e}^{{\frac {-\beta+\alpha-c}{\beta}}}} \right) \]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{ans[1] := ((c*epsilon/(-1+epsilon))^(-epsilon))^(-1/epsilon)/c}{\[\displaystyle {\it ans}_{{1}}\, := \, \left(  \left( {\frac {c\epsilon}{-1+\epsilon}} \right) ^{-\epsilon} \right) ^{-{\epsilon}^{-1}}{c}^{-1}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{ans[2] := beta*(((alpha-c)/(beta*(delta+1)))^(1/delta))^delta/(alpha-c)}{\[\displaystyle {\it ans}_{{2}}\, := \,\beta\, \left(  \left( {\frac {\alpha-c}{\beta\, \left( \delta+1 \right) }} \right) ^{{\delta}^{-1}} \right) ^{\delta} \left( \alpha-c \right) ^{-1}\]}
+\end{maplelatex}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{ans[3] := 1}{\[\displaystyle {\it ans}_{{3}}\, := \,1\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{}{\[\]}
+\end{mapleinput}
+\end{maplegroup}
+\begin{Maple Normal}{
+\begin{Maple Normal}{
+\mapleinline{inert}{2d}{}{\[\displaystyle \]}
+}\end{Maple Normal}
+}\end{Maple Normal}
+\end{document}
