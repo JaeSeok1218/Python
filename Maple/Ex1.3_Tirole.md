@@ -66,4 +66,4 @@ ans[k]:=diff(pm[k],c);
 end do
 
 ------
-[Result_File](Maple/Results/Ex1.3_Tirole.pdf)
+[Result_File](Maple/Results/Ex1_3_Tirole.pdf)
