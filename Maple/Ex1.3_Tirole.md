@@ -66,6 +66,4 @@ ans[k]:=diff(pm[k],c);
 end do
 
 ------
-[Result_File](Maple/Results/Ex1_3_Tirole.pdf)
-
-<a href="Maple/Results/Ex1_3_Tirole.pdf" target="_blank">PDF.</a>
+[Result](Maple/Results/Ex1_3_Tirole.pdf)
