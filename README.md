@@ -5,18 +5,20 @@ From starting point
 
 * CS5486-995(Instructor: Dr.Sridhar Radhakrishnan) Department of Computer Science, The University of Oklahoma
 
+### Commands Note
+
+* `Spring_layout`
+
 ## Python
 
 ### Commands Note
 
-1. Magic functions ([documentation](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magics-explained))
+* Magic functions ([documentation](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magics-explained))
 
-* Line magics are prefixed with the `%` so that the rest of the line is regarded as an argument.
-* Cell magics are prefixed with the `%%` so that the rest of the cell is regarded as an argument.
+  - Line magics are prefixed with the `%` so that the rest of the line is regarded as an argument.
+  - Cell magics are prefixed with the `%%` so that the rest of the cell is regarded as an argument.
 
-2. Matplotlib ([Website](https://matplotlib.org))
-
-* `Matplotlib` is a comprehensive library for creating static, animated, and interactive visualization in Python. 
+* `Matplotlib` is a comprehensive library for creating static, animated, and interactive visualization in Python. ([Website](https://matplotlib.org))
 
 
 ## * Maple
