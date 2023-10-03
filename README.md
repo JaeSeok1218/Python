@@ -19,6 +19,7 @@ From starting point
   - Cell magics are prefixed with the `%%` so that the rest of the cell is regarded as an argument.
 
 * `Matplotlib` is a comprehensive library for creating static, animated, and interactive visualization in Python. ([Website](https://matplotlib.org))
+* `key` in sorted command ([Website](https://blogboard.io/blog/knowledge/python-sorted-lambda/))
 
 
 ## * Maple
