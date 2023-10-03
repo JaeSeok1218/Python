@@ -7,7 +7,7 @@ From starting point
 
 ### Commands Note
 
-* `Spring_layout`
+* `Spring_layout`: Position nodes using Fruchterman-Reingold force-directed algorithm.
 
 ## Python
 
