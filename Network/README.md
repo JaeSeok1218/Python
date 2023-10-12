@@ -2,7 +2,7 @@
 
 **CS5486** is the title of Network Class from CS department in the University of Oklahoma.
 
-## Contents of Table
+## Table of Contents
 
 ### CS5486
 * **Basic Codes**
