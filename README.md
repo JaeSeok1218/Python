@@ -5,10 +5,6 @@ From starting point
 
 * CS5486-995(Instructor: Dr.Sridhar Radhakrishnan) Department of Computer Science, The University of Oklahoma
 
-### Commands Note
-
-* `Spring_layout`: Position nodes using Fruchterman-Reingold force-directed algorithm. ([Website](https://networkx.org/documentation/stable/reference/generated/networkx.drawing.layout.spring_layout.html))
-
 ## Python
 
 ### Commands Note
