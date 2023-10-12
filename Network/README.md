@@ -10,6 +10,17 @@
   - Draw an undirected graph with its subgraph
   - Draw a directed graph
   - Degree of nodes
+ 
+* **Histogram and Density**
+  - Histogram Comparison
+  - Density and Mean degree of undirected graph
+  - Mean degree of directed graph
+
+* **HW1_Centralities**
+  - Degree Centrality
+  - Eigenvector Centrality
+  - Page Rank Centrality
+  - Katz Centrality 
 
 ### Commands Note
 
