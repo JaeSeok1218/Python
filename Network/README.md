@@ -4,6 +4,7 @@
 
 ## Contents of Table
 
+### CS5486
 * **Basic Codes**
   - Open a `.txt` file
   - Draw an undirected graph with its subgraph
