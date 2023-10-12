@@ -2,6 +2,14 @@
 
 **CS5486** is the title of Network Class from CS department in the University of Oklahoma.
 
+## Contents of Table
+
+* **Basic Codes**
+  - Open a `.txt` file
+  - Draw an undirected graph with its subgraph
+  - Draw a directed graph
+  - Degree of nodes
+
 ### Commands Note
 
 * `Spring_layout`: Position nodes using Fruchterman-Reingold force-directed algorithm. ([Website](https://networkx.org/documentation/stable/reference/generated/networkx.drawing.layout.spring_layout.html))
