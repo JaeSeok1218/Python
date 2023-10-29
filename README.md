@@ -18,7 +18,7 @@ From starting point
 * `key` in sorted command ([Website](https://blogboard.io/blog/knowledge/python-sorted-lambda/))
 * `pandas` is a tool to use open source data analysis and manipulate it ([Website](https://pandas.pydata.org))
 * `numpy` is the fundamental package for scientific computing
-
+* `todense()` returns a dense matrix
 
 ## * Maple
 
