@@ -6,21 +6,13 @@
 
 ### CS5486
 * **Basic Codes**
-  - Open a `.txt` file
-  - Draw an undirected graph with its subgraph
-  - Draw a directed graph
-  - Degree of nodes
+  - Open a `.txt` file / Draw an undirected graph with its subgraph / Draw a directed graph / Degree of nodes
  
 * **Histogram and Density**
-  - Histogram Comparison
-  - Density and Mean degree of undirected graph
-  - Mean degree of directed graph
+  - Histogram Comparison / Density and Mean degree of undirected graph / Mean degree of directed graph
 
 * **HW1_Centralities**
-  - Degree Centrality
-  - Eigenvector Centrality
-  - Page Rank Centrality
-  - Katz Centrality 
+  - Degree Centrality / Eigenvector Centrality / Page Rank Centrality / Katz Centrality 
 
 ### Commands Note
 
