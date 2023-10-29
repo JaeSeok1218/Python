@@ -26,3 +26,4 @@
 ## Commands Note
 
 * `Spring_layout`: Position nodes using Fruchterman-Reingold force-directed algorithm. ([Website](https://networkx.org/documentation/stable/reference/generated/networkx.drawing.layout.spring_layout.html))
+* `generate_edgelist(G, delimiter='', data=True)`: generate a single line of the graph G in dege list format. If `data=False`, it generates no edge data.
