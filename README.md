@@ -16,7 +16,7 @@ From starting point
 
 * `Matplotlib` is a comprehensive library for creating static, animated, and interactive visualization in Python. ([Website](https://matplotlib.org))
 * `key` in sorted command ([Website](https://blogboard.io/blog/knowledge/python-sorted-lambda/))
-
+* `pandas` is a tool to use open source data analysis and manipulate it ([Website](https://pandas.pydata.org))
 
 ## * Maple
 
