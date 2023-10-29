@@ -12,6 +12,9 @@
 * **Histogram and Density**
   - Histogram Comparison / Density and Mean degree of undirected graph / Mean degree of directed graph
 
+* **Adjacency Marix and Weighted Network**
+  - Adjacency matrix, Edge list, and Adjacency list / Weighted Networks( + Remove weights)
+
 * **HW1_Centralities**
   - Degree Centrality / Eigenvector Centrality / Page Rank Centrality / Katz Centrality 
 
