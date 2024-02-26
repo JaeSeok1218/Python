@@ -1,11 +1,5 @@
-# Jupyter Notebook(Anaconda)
+# Python
 From starting point
-
-## Network Science
-
-* CS5486-995(Instructor: Dr.Sridhar Radhakrishnan) Department of Computer Science, The University of Oklahoma
-
-## Python
 
 ### Commands Note
 
@@ -19,6 +13,14 @@ From starting point
 * `pandas` is a tool to use open source data analysis and manipulate it ([Website](https://pandas.pydata.org))
 * `numpy` is the fundamental package for scientific computing
 * `todense()` returns a dense matrix
+
+## Network Science `networkx`
+
+* CS5486-995(Instructor: Dr.Sridhar Radhakrishnan) Department of Computer Science, The University of Oklahoma
+
+## Web Scrap `BeautilfulSoup`
+
+
 
 ## * Maple
 
