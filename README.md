@@ -11,4 +11,4 @@ From starting point
 
 ## * Maple
 
-Maple folder is not related to Anaconda. But I just upload codes to solve some Economics Mathematical questions.
+Maple folder is not related to **Python**. But I just upload codes to solve some Economics Mathematical questions.
