@@ -5,3 +5,6 @@
 * `lxml` 
 * `requests`
 * `re`: reqular expression
+
+## References
+* "Tech With Tim" [Youtube](https://www.youtube.com/watch?v=gRLHr664tXA)
